@@ -1,0 +1,1 @@
+export { default as DotsWave } from './dots-wave';

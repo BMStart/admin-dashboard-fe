@@ -1,0 +1,1 @@
+export { default as AuthenticationTemplates } from './authentication-templates';

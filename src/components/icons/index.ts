@@ -1,0 +1,14 @@
+export { default as SatelliteRoundedIcon } from './satellite-rounded';
+export { default as SunIcon } from './sun-rounded';
+export { default as MoonIcon } from './moon-rounded';
+export { default as ComputerIcon } from './computer-rounded';
+export { default as LoadingIcon } from './loading-rounded';
+export { default as GithubIcon } from './github-stroke-rounded';
+export { default as LoginIcon } from './login-stroke-rounded';
+export { default as BriefcaseDollarIcon } from './briefcase-dollar-stroke-rounded';
+export { default as ViewOffIcon } from './view-off-stroke-rounded';
+export { default as ViewIcon } from './view-stroke-rounded';
+export { default as PermanentJobIcon } from './permanent-job-stroke-rounded';
+export { default as MailIcon } from './mail-01-stroke-rounded';
+export { default as GoogleIcon } from './google-stroke-rounded';
+export { default as NewTwitterRectangleIcon } from './new-twitter-rectangle-stroke-rounded';
