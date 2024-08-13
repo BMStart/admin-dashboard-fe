@@ -9,11 +9,9 @@ import {
 } from '@/utils/paths';
 import { userRoles } from '@/utils/constants';
 import { RouteConfig } from './router';
-import { AccountPage } from '@/components/pages';
+import { AccountPage, DashboardPage } from '@/components/pages';
 import { AuthenticationTemplates } from '@/components/templates';
 import { AuthBox } from '@/components/authentication';
-import { Dashboard } from '@/components/templates/block';
-
 
 export const routesConfig: Record<any, RouteConfig[]> = {
   [userRoles.PUBLIC]: [
@@ -39,7 +37,7 @@ export const routesConfig: Record<any, RouteConfig[]> = {
     {
       path: DASHBOARD_PATH,
       element: (
-        <Dashboard />
+        <DashboardPage />
       ),
     },
     {
@@ -62,7 +60,7 @@ export const routesConfig: Record<any, RouteConfig[]> = {
       children: [
         {
           path: DASHBOARD_PATH,
-          element: <Dashboard />,
+          element: <DashboardPage />,
         },
       ],
     },

@@ -34,7 +34,7 @@ const App = () => {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setShowLoadingFallback(false);
-    }, 3000);
+    }, 1000);
 
     return () => clearTimeout(timeout);
   }, []);

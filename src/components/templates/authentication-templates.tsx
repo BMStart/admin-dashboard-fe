@@ -26,7 +26,7 @@ const AuthenticationTemplates: React.FC<AuthenticationLayoutProps> = (props) => 
   const { infoBox } = props;
   const location = useLocation();
 
-  const smHeigth = useMediaQuery({ maxHeight: breakpoints.sm });
+  const smHeight = useMediaQuery({ maxHeight: breakpoints.sm });
   const { offsetTop, elementRef } = useElementOffset();
   const boxHeight = `calc(95vh - ${offsetTop}px)`;
 
@@ -112,9 +112,9 @@ const AuthenticationTemplates: React.FC<AuthenticationLayoutProps> = (props) => 
           <ScrollArea
             ref={elementRef}
             className={cn(
-              smHeigth ? "pt-16" : "0",
+              smHeight ? "pt-16" : "0",
             )}
-            style={{ height: smHeigth ? boxHeight : 'auto' }}
+            style={{ height: smHeight ? boxHeight : 'auto' }}
           >
             {location.pathname === REGISTER_PATH
               ? <UserRegisterForm />
